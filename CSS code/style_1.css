@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 3px solid lightgray;
+    width: 100px;
+    height: 100px;
+}
+
+.box-small {
+    width: 50px;
+    height: 50px;
+    margin-left: 24px;
+    
+}
+
+
+.container {
+    border: 3px solid lightgray;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-wrapper {
+        display: flex;
+        align-items: center;
+        
+}
